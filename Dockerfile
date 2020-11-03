@@ -6,7 +6,7 @@ RUN pip install matplotlib
 
 COPY DCGAN_test.py /home
 
-CMD python -u /home/DCGAN.py
+CMD python -u /home/DCGAN_test.py
 
 
 
